@@ -1,4 +1,4 @@
-/*
+/*!
  Theme Name:   Two Bites
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Write Child Theme
@@ -9,20 +9,6 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  write-child
-*/
-/* line 1, sass/_typography.scss */
-body {
-  font-family: "Lato", Helvetica, sans-serif;
-}
-
-/* line 5, sass/_typography.scss */
-h1, h2, h3 {
-  font-family: "Lora", serif;
-}
-
-/* line 9, sass/_typography.scss */
-p {
-  font-size: 1.15rem;
-}
+*/body{font-family:"Lato",Helvetica,sans-serif}h1,h2,h3{font-family:"Lora",serif}p{font-size:1.15rem}
 
 /*# sourceMappingURL=style.css.map */

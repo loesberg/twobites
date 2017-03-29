@@ -1,0 +1,47 @@
+/*!
+ Theme Name:   Two Bites
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Write Child Theme
+ Author:       Jesse Loesberg
+ Author URI:   http://websitesforthepeople.com
+ Template:     write
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  write-child
+*/
+body {
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Lora", serif;
+}
+
+p {
+  font-size: 1.15rem;
+}
+
+.site {
+  max-width: 960px;
+}
+
+@media only screen and (min-width: 850px) {
+  #content {
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  #main-box {
+    -ms-flex: 3;
+        flex: 3;
+    padding-right: 5rem;
+  }
+
+  #sidebar-box {
+    -ms-flex: 1;
+        flex: 1;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbXBpbGVkL3N0eWxlLWh1bWFuLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7RUFXRTtBQUNGO0VBQ0UsMkNBQTJDO0NBQzVDOztBQUVEO0VBQ0UsMkJBQTJCO0NBQzVCOztBQUVEO0VBQ0UsbUJBQW1CO0NBQ3BCOztBQUVEO0VBQ0UsaUJBQWlCO0NBQ2xCOztBQUVEO0VBQ0U7SUFDRSxxQkFBYztJQUFkLGNBQWM7R0FDZjs7RUFFRDtJQUNFLFlBQVE7UUFBUixRQUFRO0lBQ1Isb0JBQW9CO0dBQ3JCOztFQUVEO0lBQ0UsWUFBUTtRQUFSLFFBQVE7R0FDVDtDQUNGIiwiZmlsZSI6InN0eWxlLWh1bWFuLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIVxuIFRoZW1lIE5hbWU6ICAgVHdvIEJpdGVzXG4gVGhlbWUgVVJJOiAgICBodHRwOi8vZXhhbXBsZS5jb20vdHdlbnR5LWZpZnRlZW4tY2hpbGQvXG4gRGVzY3JpcHRpb246ICBXcml0ZSBDaGlsZCBUaGVtZVxuIEF1dGhvcjogICAgICAgSmVzc2UgTG9lc2JlcmdcbiBBdXRob3IgVVJJOiAgIGh0dHA6Ly93ZWJzaXRlc2ZvcnRoZXBlb3BsZS5jb21cbiBUZW1wbGF0ZTogICAgIHdyaXRlXG4gVmVyc2lvbjogICAgICAxLjAuMFxuIExpY2Vuc2U6ICAgICAgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgdjIgb3IgbGF0ZXJcbiBMaWNlbnNlIFVSSTogIGh0dHA6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy9ncGwtMi4wLmh0bWxcbiBUZXh0IERvbWFpbjogIHdyaXRlLWNoaWxkXG4qL1xuYm9keSB7XG4gIGZvbnQtZmFtaWx5OiBcIkxhdG9cIiwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xufVxuXG5oMSwgaDIsIGgzIHtcbiAgZm9udC1mYW1pbHk6IFwiTG9yYVwiLCBzZXJpZjtcbn1cblxucCB7XG4gIGZvbnQtc2l6ZTogMS4xNXJlbTtcbn1cblxuLnNpdGUge1xuICBtYXgtd2lkdGg6IDk2MHB4O1xufVxuXG5AbWVkaWEgb25seSBzY3JlZW4gYW5kIChtaW4td2lkdGg6IDg1MHB4KSB7XG4gICNjb250ZW50IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICB9XG5cbiAgI21haW4tYm94IHtcbiAgICBmbGV4OiAzO1xuICAgIHBhZGRpbmctcmlnaHQ6IDVyZW07XG4gIH1cblxuICAjc2lkZWJhci1ib3gge1xuICAgIGZsZXg6IDE7XG4gIH1cbn1cbiJdfQ== */

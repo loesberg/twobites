@@ -1,0 +1,13 @@
+/*!
+ Theme Name:   Two Bites
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Write Child Theme
+ Author:       Jesse Loesberg
+ Author URI:   http://websitesforthepeople.com
+ Template:     write
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  write-child
+*/body{font-family:"Lato",Helvetica,sans-serif}h1,h2,h3{font-family:"Lora",serif}p{font-size:1.15rem}.site{max-width:960px}@media only screen and (min-width: 850px){#content{display:flex}#main-box{flex:3;padding-right:5rem}#sidebar-box{flex:1}}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+.site {
+	max-width: 960px;
+}
+
+@media only screen and
+(min-width: 850px) {
+	
+	#content {
+		display: flex;
+	}
+	
+	#main-box {
+		flex: 3;
+		padding-right: 5rem;
+	}
+	
+	#sidebar-box {
+		flex: 1;
+	}
+	
+}

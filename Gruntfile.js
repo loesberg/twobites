@@ -42,6 +42,21 @@ module.exports = function(grunt) {
 			dest: ''
 		  }	
 		},
+		
+		/**
+		* Uglify
+		*/
+		uglify: {
+		  build: {
+		    files: {
+			  'js/script.min.js': 'js/files/*.js'
+		    },
+		    options: {
+			  sourceMap: true,
+			  sourceMapName: 'js/sourcemap.map'
+		    }
+		  }	
+		},
 
 	  	/**
 	  	 * Watch
@@ -50,12 +65,17 @@ module.exports = function(grunt) {
 		  css: {
 		    files: '**/*.scss',
 		    tasks: ['sass', 'autoprefixer']
+		  },
+		  js: {
+		    files: 'js/files/*.js',
+		    tasks: ['uglify']
 		  }
 		}
 
 	});
 	grunt.loadNpmTasks('grunt-contrib-sass');
 	grunt.loadNpmTasks('grunt-autoprefixer');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.registerTask('default', ['watch']);
 }

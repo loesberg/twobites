@@ -9,6 +9,6 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  write-child
-*/body{font-family:"Lato",Helvetica,sans-serif}h1,h2,h3{font-family:"Lora",serif}p{font-size:1.15rem}
+*/body{font-family:"Lato",Helvetica,sans-serif}h1,h2,h3{font-family:"Lora",serif}p{font-size:1.15rem}.site{max-width:960px}@media only screen and (min-width: 850px){#content{display:-ms-flexbox;display:flex}#main-box{-ms-flex:3;flex:3;padding-right:5rem}#sidebar-box{-ms-flex:1;flex:1}}
 
 /*# sourceMappingURL=style.css.map */
